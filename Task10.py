@@ -40,22 +40,15 @@ else:
 if len(a) < 2:
     print("Line 5:", " ")
 else:
-    print("Line 5:", a[0:-1:2])
+    print("Line 5:", a[1:-1:2])
 #Line6
 if len(a) < 2:
     print("Line 6:", " ")
 else:
-    print("Line 6:", a[1:-1:2])
+    print("Line 6:", a[0:-1:2])
 #Line7
 print("Line 7:", a[::-1])
 #Line8
 print("Line 8:", a[::-2])
 #Line9
 print("Line 9:", len(a))
-
-
-
-
-
-
-
